@@ -1,0 +1,349 @@
+@media (max-width: 1440px) {
+  .top-navigation .content .text-content {
+    margin-left: 54vh !important;
+    margin-top: 30vh;
+  }
+
+  .hero-section .container .sectionTab2 .logo2 img {
+    width: 284px;
+    height: 337px;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .hero-section .container .sectionTab1 .logo1 img {
+    width: 284px;
+    height: 337px;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .hero-section .container .sectionTab3 .logo3 img {
+    width: 284px;
+    height: 337px;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .about-section .image {
+    position: relative;
+    left: 0vh;
+  }
+
+  .about-section .content {
+    background-color: #37383d;
+    overflow: hidden;
+    border-radius: 24px;
+    margin: auto;
+    width: fit-content;
+    height: 420px;
+  }
+
+  .contact {
+    padding-top: 10vh;
+    height: fit-content;
+    padding: 26px;
+  }
+
+
+
+  .hero-section .container .tab1 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab2 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab3 {
+    height: fit-content;
+  }
+
+  .contact h1 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1319px) {
+  .hero-section .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .top-navigation .content .text-content {
+    margin-left: 26vh !important;
+    margin-top: 30vh vh;
+  }
+
+  .about-section .image {
+    display: none;
+  }
+
+  .hero-section .container {
+    flex-direction: row;
+  }
+
+  .contact h1 {
+    display: none;
+  }
+
+
+
+  .hero-section .container .tab1 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab2 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab3 {
+    height: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-navigation .logo-section img {
+    height: 301px;
+    max-width: 200px;
+    position: fixed;
+    top: -74px;
+    left: 14px;
+  }
+
+  .hero-section .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  .naslov {
+    color: white;
+    font-weight: 800;
+    font-size: 16pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 4px 6px #1b1f28;
+  }
+
+  .top-navigation .content .text-content {
+    margin-left: 1vh !important;
+    margin-bottom: 145px;
+  }
+
+  .top-navigation .content .text-content p {
+    color: #1b1f28;
+    font-weight: 800;
+    font-size: 15pt;
+    font-style: italic;
+  }
+
+  .about-section .image {
+    display: none;
+  }
+
+  .hero-section .container .sectionTab1 {
+    max-width: 100vh;
+  }
+
+  .hero-section .container .sectionTab2 {
+    max-width: 100vh;
+  }
+
+  .hero-section .container .sectionTab3 {
+    max-width: 100vh;
+  }
+
+  .top-navigation .content .text-content {
+    margin-left: 15vh !important;
+  }
+
+  .hero-section .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+}
+
+.contact h1 {
+  position: absolute;
+  top: 3vh;
+  left: 39%;
+}
+
+.about-section .content p {
+  font-size: 19px;
+  color: #fff;
+  font-weight: bolder;
+  padding-top: 10pt;
+}
+
+
+
+.hero-section .container .tab1 {
+  height: fit-content;
+}
+
+.hero-section .container .tab2 {
+  height: fit-content;
+}
+
+.hero-section .container .tab3 {
+  height: fit-content;
+}
+
+@media (max-width: 540px) {
+  .top-navigation .content .text-content {
+    margin-left: 1vh !important;
+  }
+
+  .top-navigation .menu-section {
+    position: absolute;
+    flex-direction: column;
+    background: rgb(0, 128, 255);
+    transition: 0.7s ease;
+  }
+
+  .about-section .content {
+    padding: 22px;
+    max-width: 0;
+  }
+
+  .top-navigation .menu-section #closeBtn {
+    display: block;
+  }
+
+  .top-navigation .menu-section a {
+    font-size: 24px;
+  }
+
+  .top-navigation .openBtn {
+    display: block;
+  }
+
+  .top-navigation .logo-section img {
+    display: block;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: -62px;
+    width: 160px;
+  }
+
+  .hero-section .container .tab1 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab2 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab3 {
+    height: fit-content;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .hero-section .container .sectionTab1 {
+    max-width: 60vh;
+  }
+
+  .hero-section .container .sectionTab2 {
+    max-width: 60vh;
+  }
+
+  .hero-section .container .sectionTab3 {
+    max-width: 60vh;
+  }
+
+
+  .hero-section .container .tab1 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab2 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab3 {
+    height: fit-content;
+  }
+}
+
+@media (max-width: 320px) {
+  .after-hero .content p {
+    font-size: 16pt;
+    color: #fff;
+    padding-top: 17px;
+    font-style: italic;
+  }
+
+  .after-hero .content h1 {
+    font-size: 24pt;
+    font-weight: 700;
+    color: rgba(255, 255, 0, 0.7);
+  }
+
+  .about-section .content .button-contact {
+    top: 0;
+  }
+
+
+  .hero-section .container .sectionTab1 {
+    max-width: 57vh;
+  }
+
+  .hero-section .container .sectionTab2 {
+    max-width: 57vh;
+  }
+
+  .hero-section .container .sectionTab3 {
+    max-width: 57vh;
+  }
+
+  .contact h1 {
+    position: absolute;
+    top: 3vh;
+    left: 20%;
+  }
+
+
+
+
+  .about-section .content .button-contact {
+    background: linear-gradient(to top right, rgba(255, 255, 0, 0.7), rgb(191, 191, 12));
+    color: white;
+    font-weight: 800;
+    font-size: 12pt;
+    text-transform: uppercase;
+    border-radius: 34% 0;
+    border: none;
+    opacity: 0.9;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 6px;
+    position: relative;
+  }
+
+  .hero-section {
+    background: linear-gradient(to top right, white, rgb(239, 233, 233));
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-section .container .tab1 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab2 {
+    height: fit-content;
+  }
+
+  .hero-section .container .tab3 {
+    height: fit-content;
+  }
+}
